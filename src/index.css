@@ -6,7 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#app-layout-body {
+  height: auto;
+  margin: 0 auto;
+  padding: 100px;
+  position: relative;
+  border: 5px solid rgb(255, 255, 255);
+  text-align: center;
+}
+#div-register {
+  border: 5px solid rgb(217, 218, 217);
+  padding: 10px;
+  background: rgb(219, 231, 233);
+  color: rgb(12, 8, 8);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
